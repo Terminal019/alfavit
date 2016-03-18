@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.activity.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Оценить приложение"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/test"
+        android:orderInCategory="100"
+        android:title="Игра!"
+        android:icon="@drawable/test"
+        app:showAsAction="ifRoom" />
+</menu>

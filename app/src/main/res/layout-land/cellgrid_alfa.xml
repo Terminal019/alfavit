@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/back">
+
+    <TextView
+        android:id="@+id/textpartArab"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ب"
+        android:textSize="40dp"
+        android:textColor="@color/material_grey_800"
+        android:layout_weight="1"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textpartRusArab"
+        android:layout_width="wrap_content"
+        android:visibility="visible"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:layout_weight="1"
+        android:gravity="top|center_horizontal"
+        android:textSize="15dp"
+        android:textIsSelectable="false"
+        android:textColor="@color/material_grey_800"
+        android:textAlignment="center"
+        android:typeface="serif" />
+
+</LinearLayout>

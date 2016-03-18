@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#2196f3</color>
+    <color name="primary_dark">#1976d2</color>
+
+    <color name="primary_light">#dcedc8</color>
+    <color name="accent">#8bc34a</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="icons">#883b3b</color>
+    <color name="black">#000000</color>
+    <!--Плеер-->
+    <color name="audio_player_color">#689f38</color>
+    <color name="audio_player_color_dark">#689f38</color>
+    <color name="audio_player_progressbar_bg_color">#c7c7c7</color>
+</resources>
